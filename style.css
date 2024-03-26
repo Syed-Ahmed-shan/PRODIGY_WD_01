@@ -1,0 +1,42 @@
+
+body{
+  background-color: #DFF5FF;
+  color: black;
+}
+.navbar{
+  background-color: #3a4664;
+  border-radius: 36px;
+
+}
+.navbar ul{
+  overflow: auto;
+}
+.navbar li{
+  float: left;
+  list-style: none;
+  padding: 3px 3px;
+  margin: 13px 20px;
+
+}
+.navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  transition: .3s;
+  
+}
+.navbar li a:hover{
+  background-color: rgb(88, 86, 86);
+  color: aquamarine;
+}
+.search{
+  float: right;
+  color: rgb(190, 239, 239);
+  padding: 12px 17px;
+}
+.navbar input{
+  border: white;
+  border-radius: 14px;
+  padding: 3px 17px;
+  width: 129px;
+}
